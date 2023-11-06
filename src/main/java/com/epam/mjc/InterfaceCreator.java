@@ -60,7 +60,7 @@ public class InterfaceCreator {
     public BiFunction<List<Integer>, List<Integer>, List<Integer>> concatList() {
         return (list1, list2) -> {
             list1.addAll(list2);
-            return new ArrayList(list1);
+            return new ArrayList<>(list1);
         };
     }
 }
